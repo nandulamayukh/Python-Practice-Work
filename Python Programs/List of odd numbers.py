@@ -1,0 +1,6 @@
+#List of odd numbers 
+#Multiples of 5
+l=[x for x in range(0,101) if x%2!=0]
+print(l)
+n={x*x:x for x in range(0,101) if x%5==0}
+print(n)

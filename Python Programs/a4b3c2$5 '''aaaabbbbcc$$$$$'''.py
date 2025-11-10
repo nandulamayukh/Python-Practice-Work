@@ -1,0 +1,7 @@
+#a4b3c2$5 '''aaaabbbbcc$$$$$'''
+a=input()
+c=[]
+d=[]
+for x in range(0,len(a)):
+	if(x%2==0):
+		print(a[x]*int(a[x+1]), end='')

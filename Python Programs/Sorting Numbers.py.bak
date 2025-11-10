@@ -1,0 +1,6 @@
+#Sorting Numbers
+def sort(a):
+	b=sorted(a)
+	return(b)
+a=list(input())
+print(sort(a))

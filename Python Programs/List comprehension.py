@@ -1,0 +1,28 @@
+#List comprehension 
+l=[x*x*x for x in range(0,101,2)]
+print(l)
+#Sum of Two lists
+l=[1,2,3,4,5,6]
+n=[5,6,7,8,9,10]
+m=[l[x]+n[x] for x in range(0,len(l))]
+print(m)
+#combining Strings with Lsit comprehension
+a='mayukh'
+b='nandula'
+l=[x+y for x in a for y in b]
+print(l)
+#Filtering Lists
+l=[1,2,3,4,5]
+n=[2,4,6,8,10]
+s=[n[x] for x in range(0,len(l)) if n[x] not in l]
+print(s)
+#Display Squares Divisable by 3
+l=[x*x for x in range(0,101)if x*x%3==0]
+print(l)
+#Counting Number of Charecters
+a='hyd is Green city'
+a=a.upper()
+b=a.split()
+l=[[x,len(x)] for x in b]
+print(l)
+#

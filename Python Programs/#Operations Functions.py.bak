@@ -1,0 +1,15 @@
+#Operations Functions
+def sub(a,b):
+	print(mult(a,b))
+	return(a-b)
+def mult(a,b):
+	print(div(a,b))
+	return(a*b)
+def div(a,b):
+	return(a/b)
+a=int(input())
+b=int(input())
+print(add(a,b))
+def add(a,b):
+	print(sub(a,b))
+	return(a+b)

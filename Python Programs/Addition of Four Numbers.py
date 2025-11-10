@@ -1,0 +1,8 @@
+#Addition of Four Numbers
+def sum(a,b,c,d):
+	print(a,b,c,d)
+	print(a+b+c+d)
+sum(10,20,30,40)
+sum(a=10,c=20,d=30,b=40)
+sum(10,40,c=30,d=20)
+sum(10,b=20,d=30,c=40)

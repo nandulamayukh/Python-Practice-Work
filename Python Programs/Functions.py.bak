@@ -1,0 +1,5 @@
+#Functions
+def f1(a):
+	print(a)
+a=eval(input())
+f1(a)

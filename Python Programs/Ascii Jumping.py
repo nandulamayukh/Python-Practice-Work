@@ -1,0 +1,6 @@
+#input=a4b5c3z2 output=aebgcfz\
+a=input()
+for x in range(0,len(a)):
+	if(x%2==0):
+		print(a[x]+
+		chr(ord(a[x])+int(a[x+1])),end='')

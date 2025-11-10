@@ -1,0 +1,9 @@
+#Reverse Order of words in a sentence
+a=input("input")
+b=''
+c=a.split()
+print(c)
+for x in range(len(c)-1, -1,-1):
+	b+=''.join(c[x])+' '	
+print(b)
+	

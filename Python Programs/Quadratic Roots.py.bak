@@ -1,0 +1,16 @@
+import math 
+print("please input a,b and c such that ax^2+bx+c=0 is true")
+a=int(input())
+b=int(input())
+c=int(input())
+r1=0
+r2=0
+d=(b**2)-(4*a*c)
+if (d<0):
+	print("No real roots")
+	print(d)
+else:
+	r1=(-b+(d**0.5))/4*a
+	r2=(-b-(d**0.5))/4*a
+print(r1,r2)
+

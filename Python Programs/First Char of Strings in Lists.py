@@ -1,0 +1,5 @@
+a=["mayukh", "nandula", "hyderbad", "delhi"]
+b=[]
+for x in range (0,len(a)):
+	b.append(a[x][0])
+print(''.join(b))

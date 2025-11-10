@@ -1,0 +1,8 @@
+n=int(input("How many numbers do you want"))
+a=list(input())
+for x in range(0,n):
+	if (a[x]%2==0):
+		print("even")
+	else:
+		print("odd")
+

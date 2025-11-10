@@ -1,0 +1,8 @@
+#Display Vowels in string
+a='mayukh'
+b=['a','e', 'i' , 'o', 'u']
+c=[]
+for x in range(0,len(a)):
+	if(a[x] in not b):
+		c.append(a[x])
+print(c)

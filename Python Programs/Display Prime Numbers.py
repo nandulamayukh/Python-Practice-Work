@@ -1,0 +1,10 @@
+#Display Prime Numbers
+def f1(a):
+	for x in range(2,a):
+			if(a%x==0):
+				return(0)
+	return(1)
+n=eval(input())
+for x in range(2,n):
+	if (f1(x)==1):
+		print(x)

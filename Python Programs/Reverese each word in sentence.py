@@ -1,0 +1,11 @@
+#Reverese each word in sentence
+a=input()
+b=a.split()
+c=[]
+d=''
+for x in range(0,len(b)):
+	c+=(list(reversed(b[x])))+[' ']
+print(c)
+print(''.join(c)+' ')
+
+

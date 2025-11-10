@@ -1,0 +1,8 @@
+#Common elements
+a=[1,2,3,4,5]
+b=[3,4,5,6,7,8,9]
+c=[]
+for x in range(0,len(a)):
+	if (a[x] in b):
+		c.append(a[x])
+print(c)
